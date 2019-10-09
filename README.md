@@ -1,11 +1,11 @@
-> [官方文件](https://mongoosejs.com/docs/index.html)
+> [mongoose 官方文件](https://mongoosejs.com/docs/index.html)
 
-## MongoDB 基本指令
-下載
+## 下載 mongoose 套件
 ```zsh
 npm install mongoose
 ```
 
+## MongoDB 基本指令
 查詢 MongoDB 版本
 ```zsh
 mongod --version
