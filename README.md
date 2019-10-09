@@ -37,6 +37,6 @@ show collections
 ```
 
 列出該集合的資料內容 
-```zsh
+```
 db.集合名稱.find()
 ```
