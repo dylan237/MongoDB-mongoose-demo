@@ -1,4 +1,5 @@
 > [mongoose 官方文件](https://mongoosejs.com/docs/index.html)
+[[Mongo] MongoDB 指令操作（CLI）](https://pjchender.github.io/2018/12/09/mongo-mongodb-%E6%93%8D%E4%BD%9C/)
 
 ## 下載 mongoose 套件
 ```zsh
@@ -13,7 +14,17 @@ mongod --version
 
 開啟資料庫
 ```zsh
+mongod
+```
+
+啟動 MongoDB Shell
+```zsh
 mongo
+```
+
+離開 MongoDB Shell
+```zsh
+quit()
 ```
 
 查看所有資料庫
@@ -40,3 +51,4 @@ show collections
 ```
 db.集合名稱.find()
 ```
+
